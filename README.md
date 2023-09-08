@@ -21,6 +21,7 @@ The primary feature is short recordings of individual bird calls for 264 differe
 
 For the purpose of this project, only 3 bird species were selected (primarily due to limitation in computing resource). The 3 selected species are barswa, comsan, and eaywag1. As the test data provided by the competition lacked labels, and only 3 out of the 264 species from the original dataset were selected, I utilized only the training dataset as provided by the competition for this project. To prevent data leakage, the data was split to train and test dataset at 70/30 split (at random). A series of preprocessing and data cleaning were performed before EDA and model building, details of which can be found on the project page. 
 
+## Model:
 Many audio features could be extracted from audio files, some commonly used for machine learning are MFCC, mel-spectrogram, spectral centroid, chroma, and RMS. I explored and experimented different features and with different feature engineering techniques, and then built various models with different combinations of audio features as input using below listed machine learning algorithms, with sequential and functional API architectures, with and without augmentation, with and without learned embeddings, and with and without transfer learning techniques. Details of feature extraction, feature engineering, and model results can be found on the project page. 
 - Random Forest
 - Support Vector Machine
