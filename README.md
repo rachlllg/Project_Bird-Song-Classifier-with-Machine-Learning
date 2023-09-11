@@ -23,11 +23,10 @@ For the purpose of this project, only 3 bird species were selected (primarily du
 
 ## Model:
 Many audio features could be extracted from audio files, some commonly used for machine learning are MFCC, mel-spectrogram, spectral centroid, chroma, and RMS. I explored and experimented different features and with different feature engineering techniques, and then built various models with different combinations of audio features as input using below listed machine learning algorithms, with sequential and functional API architectures, with and without augmentation, with and without learned embeddings, and with and without transfer learning techniques. Details of feature extraction, feature engineering, and model results can be found on the project page. 
-- Random Forest
-- Support Vector Machine
-- XGBoost
+- Ensemble: Random Forest, XGBoost
+- Support Vector Machine (SVM)
 - Logistic Regression
-- FFNN
-- 1D & 2D CNN
-- RNN
+- Feed Forward Neural Network (FFNN)
+- Convolutional Neural Networks (CNN): 1D & 2D
+- Recurrent Neural Networks (RNN): LSTM & GRU
 - Transformer
