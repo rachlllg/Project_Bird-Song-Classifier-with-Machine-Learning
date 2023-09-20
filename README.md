@@ -1,4 +1,7 @@
 # Project_Bird-Song-Classifier-with-Machine-Learning
+
+Refer to the project page on my website for detailed discussion on the project, including steps performed to process and clean the dataset and model reults evaluation.
+
 Project page: https://rachlllg.github.io/project/2023-Bird_Song_Classifier_with_Machine_Learning/
 
 ## Background:
