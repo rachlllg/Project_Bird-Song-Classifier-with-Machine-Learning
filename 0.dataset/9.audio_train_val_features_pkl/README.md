@@ -1,4 +1,4 @@
-The audio_train_val_features_pkl objects are the output from the 3.model_prep/d.extract_features_labels.ipynb file. This consistents of the train & val features and labels for the three species selected with different framed duration and with and without augmentation.
+The audio_train_val_features_pkl objects are the output from the 3.model_prep/d.extract_features_labels notebooks. This consistents of the train & val features and labels for the three species selected with different framed duration and with and without augmentation.
 
 The files are too large to fit into GitHub but the data can be viewed from the Google Drive link below:
 

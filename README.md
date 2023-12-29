@@ -9,7 +9,7 @@ This was the final project for the Applied Machine Learning class in my Masters 
 
 The project was very open-ended, the teams are free to select any topic of interest and any dataset pertaining to that topic, with the objective to build a machine learning model.
 
-All work was done in Google Colab (Free) with CPU only, with Python as the programming language. Notable Python packages used:
+All work was done in Google Colab (Free), with Python as the programming language. Notable Python packages used:
 - standard: numpy, pandas
 - audio processing: librosa
 - modeling: scikit-learn, tensorflow

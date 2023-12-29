@@ -1,0 +1,7 @@
+# Prepare test data for inference
+
+The inference should be run using the same features as was used for training. First, the framed audios were extracted using the a1.inference_8sec.ipynb notebook, where the Framed class method is used. This is the same notebook in the 3.model_prep/c.extract_framed_audios/8sec.ipynb notebook that was used on the training data, note that I changed the class method slightly to accommodate for the test data.
+
+Once the framed audios were extracted, the labels and audio features were extracted using the a2.inference_8_sec_audio_features_not_avgpooled.ipynb notebook by passing in the train_df and test_df to the Extraction class method. This is the same notebook as 3.model_prep/d.extract_feature_labels/8_sec_audio_features_not_avgpooled.ipynb notebook. It is important to pass in both train_df and test_df as the feature normalization scaler should be fit using the training data to prevent data leakage.
+
+Similarly, the non-audio features were extracted using the a3.inference_8_sec_non_audio_features.ipynb notebook by passing in the train_df and test_df to the Extraction class method. This is the same notebook as 3.model_prep/d.extract_feature_labels/8_sec_non_audio_features.ipynb notebook. It is not neccessary to pass in train_df but I still passed in the train_df for convenience sake (so I wouldn't need to make adjustments to the Extraction class).
