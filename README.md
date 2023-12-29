@@ -9,7 +9,7 @@ This was the final project for the Applied Machine Learning class in my Masters 
 
 The project was very open-ended, the teams are free to select any topic of interest and any dataset pertaining to that topic, with the objective to build a machine learning model.
 
-All work was done in Google Colab (Free), with Python as the programming language. Notable Python packages used:
+All work was done in Google Colab (Free), with Python as the programming language. For training the deep neural networks (FFNN, CNN, and RNN), GPU is recommended to speed-up the processing time. Notable Python packages used:
 - standard: numpy, pandas
 - audio processing: librosa
 - modeling: scikit-learn, tensorflow
@@ -32,4 +32,3 @@ Many audio features could be extracted from audio files, some commonly used for 
 - Feed Forward Neural Network (FFNN)
 - Convolutional Neural Networks (CNN): 1D & 2D
 - Recurrent Neural Networks (RNN): LSTM & GRU
-- Transformer
